@@ -146,7 +146,7 @@
     /* ========== showcase ========== */
   }
   /* Theme dark */
-  :root [class~="dark"] {
+  html.dark {
     --global-background-color: #292a2d;
     --global-font-color: #a9a9b3;
     --global-font-secondary-color: #b5b5b5;
@@ -194,7 +194,7 @@
   }
 
   /* Theme Black */
-  :root [class~="black"]  {
+  html.black  {
     --global-background-color: #000000;
     --global-font-color: #d9d9d9;
     --global-font-secondary-color: #a9a9b3;

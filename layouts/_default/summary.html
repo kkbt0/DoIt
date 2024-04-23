@@ -66,7 +66,7 @@
     </div>
 
     {{- /* Summary content */ -}}
-    <div class="content">
+    <div class="tw-prose prose-kbd:tw-bg-global-background-color content">
         {{- with .Summary -}}
             {{- dict "Content" . "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
         {{- else -}}

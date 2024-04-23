@@ -39,7 +39,7 @@
 {{- end -}}
 </head>
 
-<body header-desktop="{{ .Site.Params.header.desktopMode }}" header-mobile="{{ .Site.Params.header.mobileMode }}">
+<body header-desktop="{{ .Site.Params.header.desktopMode }}" header-mobile="{{ .Site.Params.header.mobileMode }}" class="tw-bg-global-background-color tw-text-global-font-color">
     {{- /* Check theme isDark before body rendering */ -}}
     {{- $theme := .Site.Params.defaulttheme -}}
     <script type="text/javascript">

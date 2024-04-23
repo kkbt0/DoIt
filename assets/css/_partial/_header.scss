@@ -352,6 +352,7 @@ header {
 
   .dropdown-menu {
     right: 0 !important;
+    // This class is used in a assets/lib/autocomplete/autocomplete.min.js
     background-color: $global-background-color;
 
     .suggestions {

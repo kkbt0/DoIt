@@ -208,18 +208,18 @@
     --showcase-hover-color: #ffffff;
 }
 
-:root {
-    @include theme-light;
-}
+// :root {
+//     @include theme-light;
+// }
 
-html.light {
-    @include theme-light;
-}
+// html.light {
+//     @include theme-light;
+// }
 
-html.dark {
-    @include theme-dark;
-}
+// html.dark {
+//     @include theme-dark;
+// }
 
-html.black {
-    @include theme-black;
-}
+// html.black {
+//     @include theme-black;
+// }

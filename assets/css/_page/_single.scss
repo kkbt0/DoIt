@@ -305,7 +305,7 @@
     kbd {
       display: inline-block;
       padding: .25rem;
-      background-color: $global-background-color;
+      // background-color: $global-background-color; // TODO Need to check style
       border: 1px solid $global-border-color;
       border-bottom-color: $global-border-color;
       @include border-radius(3px);

@@ -44,6 +44,7 @@
     "valine": "^1.5.1"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.12",
     "concurrently": "^8.2.2",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",

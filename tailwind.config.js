@@ -86,6 +86,7 @@ module.exports = {
     }
   },
   plugins: [
-    require('tailwindcss-aria-attributes')
+    require('tailwindcss-aria-attributes'),
+    require('@tailwindcss/typography')
   ]
 }
